@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/screen_v1.css?1322200367" />
+<link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/../js/jquery-ui/css/ui-lightness/jquery-ui-1.8.16.custom.css?1322062046" />
+<link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/../js/jquery.vector-map/jquery.vector-map.css?1308304192" />
+
+    
+    <script type="text/javascript" src="http://statistic.local/assets/js/jquery.min.js?1322008457"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/highcharts/js/highcharts.js?1320982516"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery-ui/js/jquery-ui-1.8.16.custom.min.js?1322062046"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery.vector-map/jquery.vector-map.js?1308304192"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery.vector-map/world-en.js?1308304192"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/script.js?1322132576"></script>
+    
+    
+    <title>Statistics</title>
+  </head>
+  <body>
+    <div class="spinner"></div>
+    <div id="wrapper">
+      
+      
+      <!-- HEADER -->
+      <div id="header">
+        <h1><a href="/">BRR Media</a><span class="tagline">Analytics</span></h1>
+      </div>
+      <!-- /HEADER -->
+
+      
+      <!-- NAV -->
+      <div id="nav">
+        <ul>
+          <li><a class="current" href="/">Home</a></li>
+        </ul>
+      </div>
+      <!-- /NAV -->
+      
+      
+      <!-- MAIN -->
+      <div id="main">
+        
+<form method="POST" id="search-form">
+
+  <div class="search clearfix">
+    <div class="search-text">Please enter the event ID or event name:</div>
+    <div class="search-input"><input type="text" name="keyword" value="" /></div>
+    <div class="search-options">
+      <select name="option">
+            
+        <option value="overview" >Overview</option>
+            
+        <option value="partners" selected>Partners</option>
+            
+        <option value="durations" >Durations</option>
+            
+        <option value="referrer_type" >Referrers</option>
+            
+        <option value="regions" >Regions</option>
+            
+        <option value="queries" >Queries</option>
+            </select>
+     
+     <div class="search-dates">
+      Start: <input type="text" name="start_day" value="19/11/2011" class="datepicker" />
+      
+      End: <input type="text" name="end_day" value="25/11/2011" class="datepicker" />
+     </div>
+    </div>
+    <div class="search-button"><a href="javascript:void(0)" class="fire_search">Search</a></div>
+    
+        <a href="http://statistic.local/history/ecbc5260ec9f9480c46a9ffd7adf5686.html" target="_blank">
+    ecbc5260ec9f9480c46a9ffd7adf5686.html
+    </a>
+      </div>
+
+    
+  <div class="stat_result clearfix">
+  
+<div class="right">
+<div id="partners-visitors" style="width:45%; margin: 0 0 20px 2%; float:left;"></div>
+<div id="partners-visits" style="width:45%; margin: 0 0 20px 2%; float:left;"></div>
+</div>
+
+
+<div class="left">
+<div class="stat_table">
+<div class="header">
+  <div class="header-element">Partners</div>  
+    <div class="header-element">Visitors</div>
+    <div class="header-element">Visits</div>
+  </div>
+
+
+
+
+  
+  
+<div class="row odd theaustralian">
+    <div class="row-element">theaustralian</div>  
+    <div class="row-element">1,812<br /><span class='percentage'>9.24%</span></div>  
+    <div class="row-element">1,978<br /><span class='percentage'>8.38%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even brr">
+    <div class="row-element">brr</div>  
+    <div class="row-element">5,407<br /><span class='percentage'>27.57%</span></div>  
+    <div class="row-element">6,217<br /><span class='percentage'>26.33%</span></div>  
+  </div>
+
+
+
+
+<div class="total">
+  <div class="total-element">2 rows</div>
+  
+    <div class="total-element">19,609</div>
+    <div class="total-element">23,615</div>
+    
+</div>
+  
+</div>  
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+  
+  
+  $(document).ready(function() {
+    chart = new Highcharts.Chart({
+      chart: {
+        renderTo: 'partners-visitors',
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false
+      },
+      title: {
+        text: 'Visitors'
+      },
+      tooltip: {
+        formatter: function() {
+          return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+        }
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            color: '#000000',
+            connectorColor: '#000000',
+            formatter: function() {
+              return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+            }
+          }
+        }
+      },
+      credits: {enabled: false},
+      series: [{
+          type: 'pie',
+          name: 'Visitors',
+          data: [   ['theaustralian',   25.1],{name: 'brr', y: 74.9, sliced: true, selected: true}]
+        }]
+    });
+  });
+  
+  $(document).ready(function() {
+    chart = new Highcharts.Chart({
+      chart: {
+        renderTo: 'partners-visits',
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false
+      },
+      title: {
+        text: 'Visits'
+      },
+      tooltip: {
+        formatter: function() {
+          return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+        }
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            color: '#000000',
+            connectorColor: '#000000',
+            formatter: function() {
+              return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+            }
+          }
+        }
+      },
+      credits: {enabled: false},
+      series: [{
+          type: 'pie',
+          name: 'Visits',
+          data: [['theaustralian',   24.1],{name: 'brr', y: 75.9, sliced: true, selected: true}]
+        }]
+    });
+  });  
+  
+</script>
+
+                 
+  </div>
+  </div>
+  
+</form>        </div>
+      <!-- /MAIN -->
+      
+      
+      <!-- FOOTER -->
+      <div id="footer">
+        <p>
+          &copy; Copyright 2011 <a href="http://www.brr.com.au/" title="brr">www.brr.com.au</a><br />     
+        </p>
+      </div>
+      <!-- /FOOTER -->
+      
+      
+    </div>
+  </body>
+</html>
+

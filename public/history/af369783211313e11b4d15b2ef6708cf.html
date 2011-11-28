@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/screen_v1.css?1322200367" />
+<link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/../js/jquery-ui/css/ui-lightness/jquery-ui-1.8.16.custom.css?1322062046" />
+<link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/../js/jquery.vector-map/jquery.vector-map.css?1308304192" />
+
+    
+    <script type="text/javascript" src="http://statistic.local/assets/js/jquery.min.js?1322008457"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/highcharts/js/highcharts.js?1320982516"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery-ui/js/jquery-ui-1.8.16.custom.min.js?1322062046"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery.vector-map/jquery.vector-map.js?1308304192"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery.vector-map/world-en.js?1308304192"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/script.js?1322132576"></script>
+    
+    
+    <title>Statistics</title>
+  </head>
+  <body>
+    <div class="spinner"></div>
+    <div id="wrapper">
+      
+      
+      <!-- HEADER -->
+      <div id="header">
+        <h1><a href="/">BRR Media</a><span class="tagline">Analytics</span></h1>
+      </div>
+      <!-- /HEADER -->
+
+      
+      <!-- NAV -->
+      <div id="nav">
+        <ul>
+          <li><a class="current" href="/">Home</a></li>
+        </ul>
+      </div>
+      <!-- /NAV -->
+      
+      
+      <!-- MAIN -->
+      <div id="main">
+        
+<form method="POST" id="search-form">
+
+  <div class="search clearfix">
+    <div class="search-text">Please enter the event ID or event name:</div>
+    <div class="search-input"><input type="text" name="keyword" value="89777" /></div>
+    <div class="search-options">
+      <select name="option">
+            
+        <option value="overview" selected>Overview</option>
+            
+        <option value="partners" >Partners</option>
+            
+        <option value="durations" >Durations</option>
+            
+        <option value="referrer_type" >Referrers</option>
+            
+        <option value="regions" >Regions</option>
+            
+        <option value="queries" >Queries</option>
+            
+        <option value="realtime" >Live</option>
+            </select>
+     
+     <div class="search-dates">
+      Start: <input type="text" name="start_day" value="22/11/2011" class="datepicker" />
+      
+      End: <input type="text" name="end_day" value="28/11/2011" class="datepicker" />
+     </div>
+    </div>
+    <div class="search-button"><a href="javascript:void(0)" class="fire_search">Search</a></div>
+    
+        <a href="http://statistic.local/history/af369783211313e11b4d15b2ef6708cf.html" target="_blank">
+    af369783211313e11b4d15b2ef6708cf.html
+    </a>
+      </div>
+
+    
+  <div class="stat_result clearfix">
+  
+<div class="right"><div id="overview-area" style="width: 100%; height: 400px;"></div></div>
+
+
+<div class="left">
+<div class="stat_table">
+<div class="header">
+  <div class="header-element">Overview</div>  
+    <div class="header-element">Visitors</div>
+    <div class="header-element">Visits</div>
+  </div>
+
+
+
+
+
+<div class="total">
+  <div class="total-element">0 rows</div>
+  
+    <div class="total-element">Total: 0</div>
+    <div class="total-element">Total: 0</div>
+    
+</div>
+  
+</div>  
+
+</div>
+
+
+
+
+
+<div style="clear:both"></div>
+   <div style="border: 1px solid #CCC; padding: 10px; background-color: #FFF; color: #333;">
+	<p style="font-size: 13px; color: #333;"><strong>Notice!</strong></p>
+	<p style="font-size: 13px; color: #333;">ErrorException [ Notice ]: Undefined offset: 0</p>
+	<p style="font-size: 13px; color: #333;"><strong>APPPATH/views/statistics/overview.php @ line 119:</strong></p>
+	<pre style="font-size: 13px; color: #333; border: 1px solid #EEE; padding: 3px 3px 3px 8px; margin: 0;overflow: auto;"><code>118:	$xs = array();
+<strong>119:	foreach($xy[0] as $v){</strong>
+120:	$xs[] = Helper::format_overview_dates($v, &quot;dS M&quot;);
+</code></pre>
+</div><div style="border: 1px solid #CCC; padding: 10px; background-color: #FFF; color: #333;">
+	<p style="font-size: 13px; color: #333;"><strong>Warning!</strong></p>
+	<p style="font-size: 13px; color: #333;">ErrorException [ Warning ]: Invalid argument supplied for foreach()</p>
+	<p style="font-size: 13px; color: #333;"><strong>APPPATH/views/statistics/overview.php @ line 119:</strong></p>
+	<pre style="font-size: 13px; color: #333; border: 1px solid #EEE; padding: 3px 3px 3px 8px; margin: 0;overflow: auto;"><code>118:	$xs = array();
+<strong>119:	foreach($xy[0] as $v){</strong>
+120:	$xs[] = Helper::format_overview_dates($v, &quot;dS M&quot;);
+</code></pre>
+</div>
+
+<script type="text/javascript">
+  
+$(document).ready(function() {
+  
+    
+    
+    new Highcharts.Chart({
+      chart: {
+        renderTo: 'overview-area',
+        defaultSeriesType: 'area'
+      },
+      title: {
+        text: 'Overview'
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: [],
+        tickmarkPlacement: 'on',
+        title: {
+          enabled: false
+        }
+      },
+      yAxis: {
+        title: {
+          text: 'Traffics'
+        },
+        labels: {
+          formatter: function() {
+            return this.value;
+          }
+        }
+      },
+      tooltip: {
+        formatter: function() {
+          return ''+
+            this.x +': '+ Highcharts.numberFormat(this.y, 0, ',');
+        }
+      },
+      plotOptions: {
+        area: {
+          stacking: null,
+          lineColor: '#666666',
+          lineWidth: 1,
+          marker: {
+            lineWidth: 1,
+            lineColor: '#666666'
+          }
+        }
+      },
+      credits: {enabled: false},
+      series: [{
+          name: 'Visits',
+          data: [<div style="border: 1px solid #CCC; padding: 10px; background-color: #FFF; color: #333;">
+	<p style="font-size: 13px; color: #333;"><strong>Notice!</strong></p>
+	<p style="font-size: 13px; color: #333;">ErrorException [ Notice ]: Undefined offset: 2</p>
+	<p style="font-size: 13px; color: #333;"><strong>APPPATH/views/statistics/overview.php @ line 180:</strong></p>
+	<pre style="font-size: 13px; color: #333; border: 1px solid #EEE; padding: 3px 3px 3px 8px; margin: 0;overflow: auto;"><code>179:	name: 'Visits',
+<strong>180:	data: [&lt;?php echo implode(&quot;,&quot;, $xy[2]); ?&gt;]</strong>
+181:	}, {
+</code></pre>
+</div><div style="border: 1px solid #CCC; padding: 10px; background-color: #FFF; color: #333;">
+	<p style="font-size: 13px; color: #333;"><strong>Warning!</strong></p>
+	<p style="font-size: 13px; color: #333;">ErrorException [ Warning ]: implode(): Invalid arguments passed</p>
+	<p style="font-size: 13px; color: #333;"><strong>APPPATH/views/statistics/overview.php @ line 180:</strong></p>
+	<pre style="font-size: 13px; color: #333; border: 1px solid #EEE; padding: 3px 3px 3px 8px; margin: 0;overflow: auto;"><code>179:	name: 'Visits',
+<strong>180:	data: [&lt;?php echo implode(&quot;,&quot;, $xy[2]); ?&gt;]</strong>
+181:	}, {
+</code></pre>
+</div>]
+        }, {
+          name: 'Visitors',
+          data: [<div style="border: 1px solid #CCC; padding: 10px; background-color: #FFF; color: #333;">
+	<p style="font-size: 13px; color: #333;"><strong>Notice!</strong></p>
+	<p style="font-size: 13px; color: #333;">ErrorException [ Notice ]: Undefined offset: 1</p>
+	<p style="font-size: 13px; color: #333;"><strong>APPPATH/views/statistics/overview.php @ line 183:</strong></p>
+	<pre style="font-size: 13px; color: #333; border: 1px solid #EEE; padding: 3px 3px 3px 8px; margin: 0;overflow: auto;"><code>182:	name: 'Visitors',
+<strong>183:	data: [&lt;?php echo implode(&quot;,&quot;, $xy[1]); ?&gt;]</strong>
+184:	}]
+</code></pre>
+</div><div style="border: 1px solid #CCC; padding: 10px; background-color: #FFF; color: #333;">
+	<p style="font-size: 13px; color: #333;"><strong>Warning!</strong></p>
+	<p style="font-size: 13px; color: #333;">ErrorException [ Warning ]: implode(): Invalid arguments passed</p>
+	<p style="font-size: 13px; color: #333;"><strong>APPPATH/views/statistics/overview.php @ line 183:</strong></p>
+	<pre style="font-size: 13px; color: #333; border: 1px solid #EEE; padding: 3px 3px 3px 8px; margin: 0;overflow: auto;"><code>182:	name: 'Visitors',
+<strong>183:	data: [&lt;?php echo implode(&quot;,&quot;, $xy[1]); ?&gt;]</strong>
+184:	}]
+</code></pre>
+</div>]
+        }]
+    });
+    
+    
+  });
+  
+  
+
+</script>                 
+  </div>
+  </div>
+  
+</form>        </div>
+      <!-- /MAIN -->
+      
+      
+      <!-- FOOTER -->
+      <div id="footer">
+        <p>
+          &copy; Copyright 2011 <a href="http://www.brr.com.au/" title="brr">www.brr.com.au</a><br />     
+        </p>
+      </div>
+      <!-- /FOOTER -->
+      
+      
+    </div>
+  </body>
+</html>
+

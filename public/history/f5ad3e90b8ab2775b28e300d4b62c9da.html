@@ -1,0 +1,735 @@
+<html>
+ <head>
+
+  <link rel="stylesheet" type="text/css" href="http://192.168.0.75/statistics/public/assets/css/analytic.css?1322457672" />
+<link rel="stylesheet" type="text/css" href="http://192.168.0.75/statistics/public/assets/css/../js/jquery-ui/css/ui-lightness/jquery-ui-1.8.16.custom.css?1322062046" />
+<link rel="stylesheet" type="text/css" href="http://192.168.0.75/statistics/public/assets/css/../js/jquery.vector-map/jquery.vector-map.css?1308304192" />
+
+
+  <script type="text/javascript" src="http://192.168.0.75/statistics/public/assets/js/jquery.min.js?1322008457"></script>
+<script type="text/javascript" src="http://192.168.0.75/statistics/public/assets/js/highcharts/js/highcharts.js?1320982516"></script>
+<script type="text/javascript" src="http://192.168.0.75/statistics/public/assets/js/jquery-ui/js/jquery-ui-1.8.16.custom.min.js?1322062046"></script>
+<script type="text/javascript" src="http://192.168.0.75/statistics/public/assets/js/jquery.vector-map/jquery.vector-map.js?1308304192"></script>
+<script type="text/javascript" src="http://192.168.0.75/statistics/public/assets/js/jquery.vector-map/world-en.js?1308304192"></script>
+<script type="text/javascript" src="http://192.168.0.75/statistics/public/assets/js/script.js?1322132576"></script>
+
+
+  <title>Statistics</title>
+
+ </head>
+ <body>
+  <div id="container">
+   <div class="spinner"></div>
+   <div id="report">
+    <div id="header">
+     <h2>Statistics</h2>
+     <span class="launched">Launched: Mon, 28 Nov 2011 06:14am</span>
+     <span class="event">Event ID: 88247</span>
+    </div>
+    
+    <div class="search_form">
+         </div> 
+    
+        <div class="section">
+     <h2>Overview</h2>
+        
+<div class="right"><div id="overview-area" style="width: 100%; height: 400px;"></div></div>
+
+
+<div class="left">
+<div class="stat_table">
+<div class="header">
+  <div class="header-element">Overview</div>  
+    <div class="header-element">Visitors</div>
+    <div class="header-element">Visits</div>
+  </div>
+
+
+
+
+  
+  
+<div class="row odd">
+    <div class="row-element">Fri, 25th Nov, 2011</div>  
+    <div class="row-element">39<br /><span class='percentage'>76.47%</span></div>  
+    <div class="row-element">46<br /><span class='percentage'>79.31%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even">
+    <div class="row-element">Sat, 26th Nov, 2011</div>  
+    <div class="row-element">3<br /><span class='percentage'>5.88%</span></div>  
+    <div class="row-element">3<br /><span class='percentage'>5.17%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row odd">
+    <div class="row-element">Sun, 27th Nov, 2011</div>  
+    <div class="row-element">7<br /><span class='percentage'>13.73%</span></div>  
+    <div class="row-element">7<br /><span class='percentage'>12.07%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even">
+    <div class="row-element">Mon, 28th Nov, 2011</div>  
+    <div class="row-element">2<br /><span class='percentage'>3.92%</span></div>  
+    <div class="row-element">2<br /><span class='percentage'>3.45%</span></div>  
+  </div>
+
+
+
+
+<div class="total">
+  <div class="total-element">4 rows</div>
+  
+    <div class="total-element">Total: 51</div>
+    <div class="total-element">Total: 58</div>
+    
+</div>
+  
+</div>  
+
+</div>
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<script type="text/javascript">
+  
+$(document).ready(function() {
+  
+    
+    
+    new Highcharts.Chart({
+      chart: {
+        renderTo: 'overview-area',
+        defaultSeriesType: 'area'
+      },
+      title: {
+        text: 'Overview'
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: ['25th Nov','26th Nov','27th Nov','28th Nov'],
+        tickmarkPlacement: 'on',
+        title: {
+          enabled: false
+        }
+      },
+      yAxis: {
+        title: {
+          text: 'Traffic'
+        },
+        labels: {
+          formatter: function() {
+            return this.value;
+          }
+        }
+      },
+      tooltip: {
+        formatter: function() {
+          return ''+
+            this.x +': '+ Highcharts.numberFormat(this.y, 0, ',');
+        }
+      },
+      plotOptions: {
+        area: {
+          stacking: null,
+          lineColor: '#666666',
+          lineWidth: 1,
+          marker: {
+            lineWidth: 1,
+            lineColor: '#666666'
+          }
+        }
+      },
+      credits: {enabled: false},
+      series: [{
+          name: 'Visits',
+          data: [46,3,7,2]
+        }, {
+          name: 'Visitors',
+          data: [39,3,7,2]
+        }]
+    });
+    
+    
+  });
+  
+  
+
+</script>    </div>
+
+    <div class="section">
+     <h2>Partners</h2>
+     
+<div class="right">
+<div id="partners-visitors" style="width:45%; height:200px; margin: 0 0 20px 2%; float:left;"></div>
+<div id="partners-visits" style="width:45%; height:200px; margin: 0 0 20px 2%; float:left;"></div>
+</div>
+
+
+<div class="left">
+<div class="stat_table">
+<div class="header">
+  <div class="header-element">Partners</div>  
+    <div class="header-element">Visitors</div>
+    <div class="header-element">Visits</div>
+  </div>
+
+
+
+
+
+<div class="total">
+  <div class="total-element">0 rows</div>
+  
+    <div class="total-element">51</div>
+    <div class="total-element">58</div>
+    
+</div>
+  
+</div>  
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+  
+  
+  $(document).ready(function() {
+    chart = new Highcharts.Chart({
+      chart: {
+        renderTo: 'partners-visitors',
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false
+      },
+      title: {
+        text: 'Visitors'
+      },
+      tooltip: {
+        formatter: function() {
+          return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+        }
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            color: '#000000',
+            connectorColor: '#000000',
+            formatter: function() {
+              return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+            }
+          }
+        }
+      },
+      credits: {enabled: false},
+      series: [{
+          type: 'pie',
+          name: 'Visitors',
+          data: []
+        }]
+    });
+  });
+  
+  $(document).ready(function() {
+    chart = new Highcharts.Chart({
+      chart: {
+        renderTo: 'partners-visits',
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false
+      },
+      title: {
+        text: 'Visits'
+      },
+      tooltip: {
+        formatter: function() {
+          return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+        }
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            color: '#000000',
+            connectorColor: '#000000',
+            formatter: function() {
+              return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+            }
+          }
+        }
+      },
+      credits: {enabled: false},
+      series: [{
+          type: 'pie',
+          name: 'Visits',
+          data: []
+        }]
+    });
+  });  
+  
+</script>
+
+    </div>
+    
+    <div class="section">
+     <h2>Top Search Terms</h2>
+     
+
+
+<div class="right">
+  
+<div id="queries-queries" style="width:100%"></div>
+
+</div>
+
+
+
+<div class="left">
+<div class="stat_table">
+<div class="header">
+  <div class="header-element">Queries</div>  
+    <div class="header-element">vtrs</div>
+    <div class="header-element">vts</div>
+  </div>
+
+
+
+
+  
+  
+<div class="row odd brr">
+    <div class="row-element">brr</div>  
+    <div class="row-element">2<br /><span class='percentage'>3.92%</span></div>  
+    <div class="row-element">3<br /><span class='percentage'>5.17%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even boardroom radio roundtable 25 november2011">
+    <div class="row-element">boardroom radio roundtable 25 november2011</div>  
+    <div class="row-element">1<br /><span class='percentage'>1.96%</span></div>  
+    <div class="row-element">1<br /><span class='percentage'>1.72%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row odd boardroom radio">
+    <div class="row-element">boardroom radio</div>  
+    <div class="row-element">1<br /><span class='percentage'>1.96%</span></div>  
+    <div class="row-element">1<br /><span class='percentage'>1.72%</span></div>  
+  </div>
+
+
+
+
+<div class="total">
+  <div class="total-element">3 rows</div>
+  
+    <div class="total-element">51</div>
+    <div class="total-element">58</div>
+    
+</div>
+  
+</div>  
+
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+  
+
+  $(document).ready(function() {
+    new Highcharts.Chart({
+      chart: {
+        renderTo: 'queries-queries',
+        defaultSeriesType: 'column',
+        margin: [ 50, 50, 100, 80]
+      },
+      title: {
+        text: 'Queries'
+      },
+      xAxis: {
+        categories: ['brr','boardroom radio roundtable 25 november2011','boardroom radio'],
+        labels: {
+          rotation: -45,
+          align: 'right',
+          style: {
+            font: 'normal 10px'
+          }
+        }
+      },
+      yAxis: {
+        min: 0,
+        title: {
+          text: 'Traffic'
+        }
+      },
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        formatter: function() {
+          return '<b>'+ this.x +'</b><br/>' + Highcharts.numberFormat(this.y, 1);
+        }
+      },
+      credits: {enabled: false},
+      series: [{
+          name: 'Visitors',
+          data: [2,1,1],
+          dataLabels: {
+            enabled: true,
+            rotation: -90,
+            color: '#FFFFFF',
+            align: 'right',
+            x: -3,
+            y: 10,
+            formatter: function() {
+              return this.y;
+            },
+            style: {
+              font: 'normal 10px'
+            }
+          }			
+        }]
+    });
+    
+    
+  });
+  
+</script>
+
+    </div>    
+    
+    <div class="section">
+     <h2>Time spent on page</h2>
+     
+<div class="right">
+<div id="durations-visitors" style="width:45%; height:200px; margin: 0 0 20px 2%; float:left;"></div>
+<div id="durations-visits" style="width:45%; height:200px; margin: 0 0 20px 2%; float:left;"></div>
+</div>
+
+
+<div class="left">
+<div class="stat_table">
+<div class="header">
+  <div class="header-element">Durations</div>  
+    <div class="header-element"></div>
+    <div class="header-element"></div>
+  </div>
+
+
+
+
+  
+  
+<div class="row odd 0-1 minutes">
+    <div class="row-element">0-1 minutes</div>  
+    <div class="row-element">22<br /><span class='percentage'>43.14%</span></div>  
+    <div class="row-element">23<br /><span class='percentage'>39.66%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even 10-30 minutes">
+    <div class="row-element">10-30 minutes</div>  
+    <div class="row-element">9<br /><span class='percentage'>17.65%</span></div>  
+    <div class="row-element">10<br /><span class='percentage'>17.24%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row odd 30-60 minutes">
+    <div class="row-element">30-60 minutes</div>  
+    <div class="row-element">8<br /><span class='percentage'>15.69%</span></div>  
+    <div class="row-element">9<br /><span class='percentage'>15.52%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even 1+ hours">
+    <div class="row-element">1+ hours</div>  
+    <div class="row-element">7<br /><span class='percentage'>13.73%</span></div>  
+    <div class="row-element">10<br /><span class='percentage'>17.24%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row odd 1-5 minutes">
+    <div class="row-element">1-5 minutes</div>  
+    <div class="row-element">4<br /><span class='percentage'>7.84%</span></div>  
+    <div class="row-element">5<br /><span class='percentage'>8.62%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even 5-10 minutes">
+    <div class="row-element">5-10 minutes</div>  
+    <div class="row-element">1<br /><span class='percentage'>1.96%</span></div>  
+    <div class="row-element">1<br /><span class='percentage'>1.72%</span></div>  
+  </div>
+
+
+
+
+<div class="total">
+  <div class="total-element">6 rows</div>
+  
+    <div class="total-element">51</div>
+    <div class="total-element">58</div>
+    
+</div>
+  
+</div>  
+
+</div>
+
+
+
+
+<script type="text/javascript">
+  
+  
+  $(document).ready(function() {
+    chart = new Highcharts.Chart({
+      chart: {
+        renderTo: 'durations-visitors',
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false
+      },
+      title: {
+        text: 'Visitors'
+      },
+      tooltip: {
+        formatter: function() {
+          return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+        }
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            color: '#000000',
+            connectorColor: '#000000',
+            formatter: function() {
+              return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+            }
+          }
+        }
+      },
+      series: [{
+          type: 'pie',
+          name: 'Visitors',
+          data: [{name: '0-1 minutes', y: 43.1, sliced: true, selected: true},['10-30 minutes',   17.6],['30-60 minutes',   15.7],['1+ hours',   13.7],['1-5 minutes',   7.8],['5-10 minutes',   2]]
+        }]
+    });
+  });
+  
+  $(document).ready(function() {
+    chart = new Highcharts.Chart({
+      chart: {
+        renderTo: 'durations-visits',
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false
+      },
+      title: {
+        text: 'Visits'
+      },
+      tooltip: {
+        formatter: function() {
+          return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+        }
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            color: '#000000',
+            connectorColor: '#000000',
+            formatter: function() {
+              return '<b>'+ this.point.name +'</b>:<br />'+ this.percentage.toFixed(1) +' %';
+            }
+          }
+        }
+      },
+      credits: {enabled: false},
+      series: [{
+          type: 'pie',
+          name: 'Visits',
+          data: [{name: '0-1 minutes', y: 39.7, sliced: true, selected: true},['10-30 minutes',   17.2],['30-60 minutes',   15.5],['1+ hours',   17.2],['1-5 minutes',   8.6],['5-10 minutes',   1.7]]
+        }]
+    });
+  });  
+  
+</script>
+
+    </div>
+    
+    
+    <div class="section">
+     <h2>Geography</h2>
+     
+<div class="map-box clearfix">
+<div id="map"></div>
+
+<div class="map-legend">
+  <div class="clearfix">
+  <div class="country-color" style="background:#b345e0"></div>
+  <div class="country-name">AU</div>    
+  </div>
+  <div class="clearfix">
+  <div class="country-color" style="background:#f84f13"></div>
+  <div class="country-name">HK</div>    
+  </div>
+  <div class="clearfix">
+  <div class="country-color" style="background:#f7b9a4"></div>
+  <div class="country-name">US</div>    
+  </div>
+  <div class="clearfix">
+  <div class="country-color" style="background:#ffae11"></div>
+  <div class="country-name">PH</div>    
+  </div>
+</div>
+</div>
+
+
+<div class="left">
+<div class="stat_table">
+<div class="header">
+  <div class="header-element">Regions</div>  
+
+  <div class="header-element">Visitors</div>
+  <div class="header-element">Visits</div>
+
+</div>
+
+
+
+
+  
+  
+<div class="row odd">
+    <div class="row-element">AU</div>  
+    <div class="row-element">47<br /><span class='percentage'>92.16%</span></div>  
+    <div class="row-element">53<br /><span class='percentage'>91.38%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even">
+    <div class="row-element">HK</div>  
+    <div class="row-element">1<br /><span class='percentage'>1.96%</span></div>  
+    <div class="row-element">2<br /><span class='percentage'>3.45%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row odd">
+    <div class="row-element">US</div>  
+    <div class="row-element">2<br /><span class='percentage'>3.92%</span></div>  
+    <div class="row-element">2<br /><span class='percentage'>3.45%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even">
+    <div class="row-element">PH</div>  
+    <div class="row-element">1<br /><span class='percentage'>1.96%</span></div>  
+    <div class="row-element">1<br /><span class='percentage'>1.72%</span></div>  
+  </div>
+
+
+
+
+<div class="total">
+  <div class="total-element">4 rows</div>
+  
+    <div class="total-element">51</div>
+    <div class="total-element">58</div>
+    
+</div>
+  
+</div>  
+
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+    $('#map').vectorMap({
+    color:'#d7ffb0',
+    backgroundColor:'#ffffff',
+    hoverOpacity: 0.5,
+    hoverColor: false,
+    colors: {'au':'#b345e0','hk':'#f84f13','us':'#f7b9a4','ph':'#ffae11'} 
+    
+    });
+});
+</script>    </div>    
+    
+    
+
+   </div>
+  </div>
+ </body>
+</html>

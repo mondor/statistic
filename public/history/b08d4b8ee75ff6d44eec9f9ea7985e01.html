@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/screen_v1.css?1322200367" />
+<link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/../js/jquery-ui/css/ui-lightness/jquery-ui-1.8.16.custom.css?1322062046" />
+<link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/../js/jquery.vector-map/jquery.vector-map.css?1308304192" />
+
+    
+    <script type="text/javascript" src="http://statistic.local/assets/js/jquery.min.js?1322008457"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/highcharts/js/highcharts.js?1320982516"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery-ui/js/jquery-ui-1.8.16.custom.min.js?1322062046"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery.vector-map/jquery.vector-map.js?1308304192"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery.vector-map/world-en.js?1308304192"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/script.js?1322132576"></script>
+    
+    
+    <title>Statistics</title>
+  </head>
+  <body>
+    <div class="spinner"></div>
+    <div id="wrapper">
+      
+      
+      <!-- HEADER -->
+      <div id="header">
+        <h1><a href="/">BRR Media</a><span class="tagline">Analytics</span></h1>
+      </div>
+      <!-- /HEADER -->
+
+      
+      <!-- NAV -->
+      <div id="nav">
+        <ul>
+          <li><a class="current" href="/">Home</a></li>
+        </ul>
+      </div>
+      <!-- /NAV -->
+      
+      
+      <!-- MAIN -->
+      <div id="main">
+        
+<form method="POST" id="search-form">
+
+  <div class="search clearfix">
+    <div class="search-text">Please enter the event ID or event name:</div>
+    <div class="search-input"><input type="text" name="keyword" value="" /></div>
+    <div class="search-options">
+      <select name="option">
+            
+        <option value="overview" >Overview</option>
+            
+        <option value="partners" >Partners</option>
+            
+        <option value="durations" >Durations</option>
+            
+        <option value="referrer_type" >Referrers</option>
+            
+        <option value="regions" selected>Regions</option>
+            
+        <option value="queries" >Queries</option>
+            
+        <option value="realtime" >Live</option>
+            </select>
+     
+     <div class="search-dates">
+      Start: <input type="text" name="start_day" value="22/11/2011" class="datepicker" />
+      
+      End: <input type="text" name="end_day" value="28/11/2011" class="datepicker" />
+     </div>
+    </div>
+    <div class="search-button"><a href="javascript:void(0)" class="fire_search">Search</a></div>
+    
+        <a href="http://statistic.local/history/b08d4b8ee75ff6d44eec9f9ea7985e01.html" target="_blank">
+    b08d4b8ee75ff6d44eec9f9ea7985e01.html
+    </a>
+      </div>
+
+    
+  <div class="stat_result clearfix">
+  
+<div class="clearfix" style="padding-top:20px;">
+<div id="map"></div>
+
+<div class="map-legend">
+  <div class="clearfix">
+  <div class="country-color" style="background:#b345e0"></div>
+  <div class="country-name">AU</div>    
+  </div>
+  <div class="clearfix">
+  <div class="country-color" style="background:#f84f13"></div>
+  <div class="country-name">US</div>    
+  </div>
+  <div class="clearfix">
+  <div class="country-color" style="background:#f7b9a4"></div>
+  <div class="country-name">NZ</div>    
+  </div>
+  <div class="clearfix">
+  <div class="country-color" style="background:#ffae11"></div>
+  <div class="country-name">IN</div>    
+  </div>
+  <div class="clearfix">
+  <div class="country-color" style="background:#ffeea0"></div>
+  <div class="country-name">GB</div>    
+  </div>
+  <div class="clearfix">
+  <div class="country-color" style="background:#fffdcf"></div>
+  <div class="country-name">CA</div>    
+  </div>
+</div>
+</div>
+
+
+<div class="left">
+<div class="stat_table">
+<div class="header">
+  <div class="header-element">Regions</div>  
+
+  <div class="header-element">Visitors</div>
+  <div class="header-element">Visits</div>
+
+</div>
+
+
+
+
+  
+  
+<div class="row odd">
+    <div class="row-element">AU</div>  
+    <div class="row-element">14,188<br /><span class='percentage'>78.23%</span></div>  
+    <div class="row-element">17,113<br /><span class='percentage'>79.5%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even">
+    <div class="row-element">US</div>  
+    <div class="row-element">920<br /><span class='percentage'>5.07%</span></div>  
+    <div class="row-element">954<br /><span class='percentage'>4.43%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row odd">
+    <div class="row-element">NZ</div>  
+    <div class="row-element">416<br /><span class='percentage'>2.29%</span></div>  
+    <div class="row-element">492<br /><span class='percentage'>2.29%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even">
+    <div class="row-element">IN</div>  
+    <div class="row-element">214<br /><span class='percentage'>1.18%</span></div>  
+    <div class="row-element">281<br /><span class='percentage'>1.31%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row odd">
+    <div class="row-element">GB</div>  
+    <div class="row-element">361<br /><span class='percentage'>1.99%</span></div>  
+    <div class="row-element">401<br /><span class='percentage'>1.86%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even">
+    <div class="row-element">CA</div>  
+    <div class="row-element">142<br /><span class='percentage'>0.78%</span></div>  
+    <div class="row-element">171<br /><span class='percentage'>0.79%</span></div>  
+  </div>
+
+
+
+
+<div class="total">
+  <div class="total-element">119 rows</div>
+  
+    <div class="total-element">18,137</div>
+    <div class="total-element">21,527</div>
+    
+</div>
+  
+</div>  
+
+</div>
+
+
+
+
+
+   
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+    $('#map').vectorMap({
+    color:'#d7ffb0',
+    backgroundColor:'#ffffff',
+    hoverOpacity: 0.5,
+    hoverColor: false,
+    colors: {'au':'#b345e0','us':'#f84f13','nz':'#f7b9a4','in':'#ffae11','gb':'#ffeea0','ca':'#fffdcf'} 
+    
+    });
+});
+</script>                 
+  </div>
+  
+</form>        </div>
+      <!-- /MAIN -->
+      
+      
+      <!-- FOOTER -->
+      <div id="footer">
+        <p>
+          &copy; Copyright 2011 <a href="http://www.brr.com.au/" title="brr">www.brr.com.au</a><br />     
+        </p>
+      </div>
+      <!-- /FOOTER -->
+      
+      
+    </div>
+  </body>
+</html>
+

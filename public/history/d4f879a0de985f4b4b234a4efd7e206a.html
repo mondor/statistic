@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/screen_v1.css?1322200367" />
+<link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/../js/jquery-ui/css/ui-lightness/jquery-ui-1.8.16.custom.css?1322062046" />
+<link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/../js/jquery.vector-map/jquery.vector-map.css?1308304192" />
+
+    
+    <script type="text/javascript" src="http://statistic.local/assets/js/jquery.min.js?1322008457"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/highcharts/js/highcharts.js?1320982516"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery-ui/js/jquery-ui-1.8.16.custom.min.js?1322062046"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery.vector-map/jquery.vector-map.js?1308304192"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery.vector-map/world-en.js?1308304192"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/script.js?1322132576"></script>
+    
+    
+    <title>Statistics</title>
+  </head>
+  <body>
+    <div class="spinner"></div>
+    <div id="wrapper">
+      
+      
+      <!-- HEADER -->
+      <div id="header">
+        <h1><a href="/">BRR Media</a><span class="tagline">Analytics</span></h1>
+      </div>
+      <!-- /HEADER -->
+
+      
+      <!-- NAV -->
+      <div id="nav">
+        <ul>
+          <li><a class="current" href="/">Home</a></li>
+        </ul>
+      </div>
+      <!-- /NAV -->
+      
+      
+      <!-- MAIN -->
+      <div id="main">
+        
+<form method="POST" id="search-form">
+
+  <div class="search clearfix">
+    <div class="search-text">Please enter the event ID or event name:</div>
+    <div class="search-input"><input type="text" name="keyword" value="" /></div>
+    <div class="search-options">
+      <select name="option">
+            
+        <option value="overview" >Overview</option>
+            
+        <option value="partners" >Partners</option>
+            
+        <option value="durations" >Durations</option>
+            
+        <option value="referrer_type" >Referrers</option>
+            
+        <option value="regions" >Regions</option>
+            
+        <option value="queries" >Queries</option>
+            
+        <option value="realtime" selected>Live</option>
+            </select>
+     
+     <div class="search-dates">
+      Start: <input type="text" name="start_day" value="22/11/2011" class="datepicker" />
+      
+      End: <input type="text" name="end_day" value="28/11/2011" class="datepicker" />
+     </div>
+    </div>
+    <div class="search-button"><a href="javascript:void(0)" class="fire_search">Search</a></div>
+    
+        <a href="http://statistic.local/history/d4f879a0de985f4b4b234a4efd7e206a.html" target="_blank">
+    d4f879a0de985f4b4b234a4efd7e206a.html
+    </a>
+      </div>
+
+    
+  <div class="stat_result clearfix">
+  <div id="realtime" style="width: 800px; height: 400px; margin: 0 auto"></div>
+
+<script type="text/javascript">
+		
+			
+ Highcharts.setOptions({
+  global: {
+   useUTC: false
+  }
+ });
+				
+
+ $(document).ready(function() {
+  new Highcharts.Chart({
+   chart: {
+    renderTo: 'realtime',
+    defaultSeriesType: 'spline',
+    marginRight: 10,
+    events: {
+     load: function() {
+				
+      // set up the updating of the chart each second
+      var series = this.series[0];
+      setInterval(function() {       
+       $.ajax({
+        url: '/statistic/getvisitors/?eventid=', 
+        success: function(data) {
+         x = (new Date()).getTime();
+         y = 0;
+         series.addPoint([x, y], true, true);
+        }
+       });       
+      }, 4000);
+     }
+    }
+   },
+   title: {
+    text: 'Live random data'
+   },
+   xAxis: {
+    type: 'datetime',
+    tickPixelInterval: 150
+   },
+   yAxis: {
+    title: {
+     text: 'Value'
+    },
+    plotLines: [{
+      value: 0,
+      width: 1,
+      color: '#808080'
+     }]
+   },
+   tooltip: {
+    enabled:false
+   },
+   legend: {
+    enabled: false
+   },
+   exporting: {
+    enabled: false
+   },
+   credits: {
+    enabled: false
+   },
+   series: [{
+     name: 'Random data',
+     data: (function() {
+      // generate an array of random data
+      var data = [],
+      time = (new Date()).getTime(),
+      i;
+							
+      for (i = -1; i <= 0; i++) {
+       data.push({
+        x: time + i * 4000,
+        y: 0
+       });
+      }
+      return data;
+     })()
+    }]
+  });
+				
+				
+ });
+				
+</script>                 
+  </div>
+  </div>
+  
+</form>        </div>
+      <!-- /MAIN -->
+      
+      
+      <!-- FOOTER -->
+      <div id="footer">
+        <p>
+          &copy; Copyright 2011 <a href="http://www.brr.com.au/" title="brr">www.brr.com.au</a><br />     
+        </p>
+      </div>
+      <!-- /FOOTER -->
+      
+      
+    </div>
+  </body>
+</html>
+

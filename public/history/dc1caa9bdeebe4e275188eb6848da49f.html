@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/screen_v1.css?1322200367" />
+<link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/../js/jquery-ui/css/ui-lightness/jquery-ui-1.8.16.custom.css?1322062046" />
+<link rel="stylesheet" type="text/css" href="http://statistic.local/assets/css/../js/jquery.vector-map/jquery.vector-map.css?1308304192" />
+
+    
+    <script type="text/javascript" src="http://statistic.local/assets/js/jquery.min.js?1322008457"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/highcharts/js/highcharts.js?1320982516"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery-ui/js/jquery-ui-1.8.16.custom.min.js?1322062046"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery.vector-map/jquery.vector-map.js?1308304192"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/jquery.vector-map/world-en.js?1308304192"></script>
+<script type="text/javascript" src="http://statistic.local/assets/js/script.js?1322132576"></script>
+    
+    
+    <title>Statistics</title>
+  </head>
+  <body>
+    <div class="spinner"></div>
+    <div id="wrapper">
+      
+      
+      <!-- HEADER -->
+      <div id="header">
+        <h1><a href="/">BRR Media</a><span class="tagline">Analytics</span></h1>
+      </div>
+      <!-- /HEADER -->
+
+      
+      <!-- NAV -->
+      <div id="nav">
+        <ul>
+          <li><a class="current" href="/">Home</a></li>
+        </ul>
+      </div>
+      <!-- /NAV -->
+      
+      
+      <!-- MAIN -->
+      <div id="main">
+        
+<form method="POST" id="search-form">
+
+  <div class="search clearfix">
+    <div class="search-text">Please enter the event ID or event name:</div>
+    <div class="search-input"><input type="text" name="keyword" value="" /></div>
+    <div class="search-options">
+      <select name="option">
+            
+        <option value="overview" >Overview</option>
+            
+        <option value="partners" >Partners</option>
+            
+        <option value="durations" >Durations</option>
+            
+        <option value="referrer_type" selected>Referrers</option>
+            
+        <option value="regions" >Regions</option>
+            
+        <option value="queries" >Queries</option>
+            </select>
+     
+     <div class="search-dates">
+      Start: <input type="text" name="start_day" value="19/11/2011" class="datepicker" />
+      
+      End: <input type="text" name="end_day" value="25/11/2011" class="datepicker" />
+     </div>
+    </div>
+    <div class="search-button"><a href="javascript:void(0)" class="fire_search">Search</a></div>
+    
+        <a href="http://statistic.local/history/dc1caa9bdeebe4e275188eb6848da49f.html" target="_blank">
+    dc1caa9bdeebe4e275188eb6848da49f.html
+    </a>
+      </div>
+
+    
+  <div class="stat_result clearfix">
+  
+<div class="right">
+  
+<div id="referrer_type" style="width:100%"></div>
+
+</div>
+
+<div class="left">
+<div class="stat_table">
+<div class="header">
+  <div class="header-element">Referrers</div>  
+    <div class="header-element">Visitors</div>
+    <div class="header-element">Visits</div>
+  </div>
+
+
+
+
+  
+  
+<div class="row odd email">
+    <div class="row-element">email</div>  
+    <div class="row-element">167<br /><span class='percentage'>0.94%</span></div>  
+    <div class="row-element">194<br /><span class='percentage'>0.91%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even community">
+    <div class="row-element">community</div>  
+    <div class="row-element">1<br /><span class='percentage'>0.01%</span></div>  
+    <div class="row-element">1<br /><span class='percentage'>0%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row odd socialnetwork">
+    <div class="row-element">socialnetwork</div>  
+    <div class="row-element">12<br /><span class='percentage'>0.07%</span></div>  
+    <div class="row-element">14<br /><span class='percentage'>0.07%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even backlink">
+    <div class="row-element">backlink</div>  
+    <div class="row-element">6,776<br /><span class='percentage'>38.26%</span></div>  
+    <div class="row-element">7,436<br /><span class='percentage'>35.02%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row odd search">
+    <div class="row-element">search</div>  
+    <div class="row-element">4,516<br /><span class='percentage'>25.5%</span></div>  
+    <div class="row-element">4,934<br /><span class='percentage'>23.24%</span></div>  
+  </div>
+
+
+
+  
+  
+<div class="row even direct">
+    <div class="row-element">direct</div>  
+    <div class="row-element">6,237<br /><span class='percentage'>35.22%</span></div>  
+    <div class="row-element">8,655<br /><span class='percentage'>40.76%</span></div>  
+  </div>
+
+
+
+
+<div class="total">
+  <div class="total-element">6 rows</div>
+  
+    <div class="total-element">17,709</div>
+    <div class="total-element">21,234</div>
+    
+</div>
+  
+</div>  
+
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript">
+  
+$(document).ready(function() {
+      new Highcharts.Chart({
+      chart: {
+        renderTo: 'referrer_type',
+        defaultSeriesType: 'bar'
+      },
+      title: {
+        text: 'Referrers'
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: [   'email','community','socialnetwork','backlink','search','direct'],
+        title: {
+          text: null
+        }
+      },
+      yAxis: {
+        min: 0,
+        title: {
+          text: 'Traffic',
+          align: 'high'
+        }
+      },
+      tooltip: {
+        formatter: function() {
+          return ''+
+            this.series.name +': '+ Highcharts.numberFormat(this.y, 0);
+        }
+      },
+      plotOptions: {
+        bar: {
+          dataLabels: {
+            enabled: true
+          }
+        }
+      },
+      legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'top',
+        x: -100,
+        y: 100,
+        floating: true,
+        borderWidth: 1,
+        backgroundColor: '#FFFFFF',
+        shadow: true
+      },
+      credits: {enabled: false},
+      series: [{
+          name: 'Visitors',
+          data: [167,1,12,6776,4516,6237]
+        }, {
+          name: 'Visits',
+          data: [194,1,14,7436,4934,8655]
+        }]
+    });
+    
+    
+  });  
+  
+  
+</script>
+
+                 
+  </div>
+  </div>
+  
+</form>        </div>
+      <!-- /MAIN -->
+      
+      
+      <!-- FOOTER -->
+      <div id="footer">
+        <p>
+          &copy; Copyright 2011 <a href="http://www.brr.com.au/" title="brr">www.brr.com.au</a><br />     
+        </p>
+      </div>
+      <!-- /FOOTER -->
+      
+      
+    </div>
+  </body>
+</html>
+
