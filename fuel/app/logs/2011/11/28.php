@@ -871,3 +871,321 @@ Warning - 2011-11-28 06:14:26 --> Fuel\Core\View::factory - This method is depre
 Warning - 2011-11-28 06:14:26 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
 Warning - 2011-11-28 06:14:26 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
 Warning - 2011-11-28 06:14:26 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:16:00 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:16:06 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:16:07 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:16:08 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:16:09 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:16:09 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:16:09 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:16:09 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:16:09 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:16:09 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:18:28 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:34 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:43 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:43 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:43 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:43 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:44 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:44 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:44 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:44 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:18:45 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:36:57 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:36:57 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:36:57 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:36:57 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:37:43 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:37:43 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:37:44 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:37:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:37:46 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:37:46 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:37:46 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:37:46 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:37:46 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:37:46 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:38:57 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:39:03 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:39:04 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:39:05 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:39:06 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:39:06 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:39:06 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:39:06 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:39:06 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:39:06 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:39:55 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:00 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:02 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:02 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:03 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:03 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:03 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:03 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:03 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:40:03 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:40:30 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:31 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:31 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:32 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:33 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:33 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:33 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:33 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:40:33 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:40:33 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:45:35 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:45:35 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:45:35 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:45:35 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:45:59 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:46:00 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:46:00 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:46:00 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:46:00 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:46:06 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:46:07 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:46:07 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:46:07 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:46:07 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:46:14 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:46:17 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:46:17 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:46:17 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:46:17 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:48:02 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:48:02 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:48:02 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:48:02 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:48:18 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:48:19 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:48:21 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:48:26 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:48:38 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:48:38 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:48:38 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:48:38 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:48:38 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:48:38 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:49:39 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:49:40 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:49:40 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:49:40 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:49:40 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:50:24 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:25 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:25 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:25 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:50:25 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:50:25 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:25 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:25 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:50:25 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:50:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:46 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:47 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:49 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:49 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:49 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:49 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:49 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:50:49 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:50:56 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:58 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:58 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:50:58 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:50:58 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:52:04 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:52:04 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:52:04 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:52:04 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:52:04 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:52:37 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:52:38 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:52:38 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:52:38 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:52:38 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:53:03 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:53:05 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:53:05 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:53:05 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:53:05 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:53:23 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:53:26 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:53:26 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:53:26 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:53:26 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:54:00 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:54:03 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:54:03 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:54:03 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:54:03 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:54:56 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:54:59 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:54:59 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:54:59 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:54:59 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:57:32 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:57:35 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:57:35 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:57:35 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:57:35 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:57:47 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:57:48 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:57:48 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:57:48 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:57:48 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:58:02 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:58:03 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:58:03 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:58:03 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:58:03 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:59:15 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:59:16 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:59:16 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:59:16 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:59:16 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 06:59:52 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:59:53 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:59:53 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 06:59:53 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 06:59:53 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 07:00:08 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:09 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:09 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:09 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 07:00:09 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 07:00:17 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:19 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:19 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:19 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 07:00:19 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 07:00:26 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:29 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:29 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:29 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 07:00:29 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 07:00:40 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:40 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:40 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:00:40 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 07:00:40 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 07:02:55 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:02:55 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:02:55 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 07:02:55 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 07:03:04 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:03:05 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:03:06 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:03:07 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:03:07 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:03:07 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:03:07 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:03:07 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:03:07 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 07:03:07 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 07:05:34 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:05:34 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:05:35 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:05:36 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:05:37 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:05:37 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:05:37 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:05:37 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:05:37 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 07:05:37 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 07:06:59 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:06:59 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:00 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:01 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:02 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:02 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:02 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:02 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:02 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 07:07:02 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 07:07:44 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:46 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:47 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:47 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:47 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:47 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:07:47 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 07:07:47 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 07:09:41 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:09:42 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:09:42 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:09:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:09:48 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:09:48 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:09:48 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:09:48 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:09:48 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 07:09:48 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 07:11:31 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:11:33 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:11:34 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:11:37 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:11:40 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:11:40 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:11:40 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:11:40 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 07:11:40 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 07:11:40 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 23:10:30 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:10:30 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:10:30 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 23:10:30 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 23:10:38 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:10:52 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:10:52 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:10:52 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 23:10:52 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 23:11:32 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:11:48 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:11:48 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:11:48 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 23:11:48 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 23:14:46 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:14:50 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:14:50 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:14:50 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 23:14:50 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 23:15:18 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:15:18 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:15:18 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 23:15:18 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.
+Warning - 2011-11-28 23:15:28 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:15:29 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:15:33 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:15:39 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:15:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:15:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:15:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:15:45 --> Fuel\Core\View::factory - This method is deprecated.  Please use a forge() instead.
+Warning - 2011-11-28 23:15:45 --> Fuel\Core\Request::execute - The Controller_Statistic::after() method should accept and return the Controller's response, empty return for the after() method is deprecated.
+Warning - 2011-11-28 23:15:45 --> Fuel\Core\Request::execute - The Controller_Statistic controller should return a string or a Response object, support for the $controller->response object is deprecated.

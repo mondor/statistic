@@ -19,6 +19,7 @@
     echo Asset::js(array(
         'jquery.min.js',
         'highcharts/js/highcharts.js',
+        'highcharts/js/modules/exporting.js',
         'jquery-ui/js/jquery-ui-1.8.16.custom.min.js',
         'jquery.vector-map/jquery.vector-map.js',
         'jquery.vector-map/world-en.js',
@@ -31,28 +32,29 @@
   </head>
   <body>
     <div class="spinner"></div>
+    <div class="overlay"></div>
     <div id="wrapper">
       
       
       <!-- HEADER -->
       <div id="header">
-        <h1><a href="/">BRR Media</a><span class="tagline">Analytics</span></h1>
+        <h1><a href="/">BRR Media</a></h1>
+        <h2><?php if(isset($title)) echo $title; ?></h2>
       </div>
       <!-- /HEADER -->
 
       
       <!-- NAV -->
       <div id="nav">
-        <ul>
-          <li><a class="current" href="/">Home</a></li>
-        </ul>
+        <?php if(isset($menu)) echo $menu; ?>
       </div>
       <!-- /NAV -->
       
-      
+                       
       <!-- MAIN -->
-      <div id="main">
-        <?php echo $content; ?>
+      <div id="main" class="clearfix">
+        <div id="sub_nav"><?php if(isset($sub_menu)) echo $sub_menu; ?></div>
+        <?php if(isset($content)) echo $content; ?>
       </div>
       <!-- /MAIN -->
       

@@ -1,7 +1,25 @@
 <?php
 
 class Helper {
-
+ 
+  public static function date_s($s){
+    $res = null;
+    $parts = explode("-", substr($s,0,10));
+    if (count($parts) == 3 && checkdate($parts[1], $parts[2], $parts[0])) {
+      $res = $parts[2] . "/" . $parts[1] . "/" . $parts[0];
+    }
+    return $res;      
+  }
+  
+  public static function s_date($s){
+    $res = null;
+    $parts = explode("/", $s);
+    if (count($parts) == 3 && checkdate($parts[1], $parts[0], $parts[2])) {
+      $res = $parts[2] . "-" . $parts[1] . "-" . $parts[0];
+    }
+    return $res;      
+  }
+  
   public static function str_to_time($date) {
     $res = null;
     $parts = explode("/", $date);
@@ -18,6 +36,7 @@ class Helper {
   //generates high chart js code, given an array
 
   public static function pie($shares) {
+   //print_r($shares);die();
     $total_hits = 0;
     $max = null;
 
@@ -32,6 +51,8 @@ class Helper {
         $total_hits += $v;
       }
     }
+    
+    if($total_hits == 0) return;
     
     $js = array();
     if (count($shares) > 0) {
@@ -80,7 +101,7 @@ class Helper {
   
   //format the dates for overview table
 
-  public static function format_overview_dates($str, $format="D, dS M, Y") {
+  public static function format_overview_dates($str, $format="D, jS M, Y") {
     $text = "";
     $parts = explode(",", $str);
 
@@ -91,9 +112,9 @@ class Helper {
         
       } else {
 
-        $text = date($format, self::str_to_time($parts[0]));
-        $text .= " - ";
-        $text .= date($format, self::str_to_time($parts[1]));
+        $text = date("M", self::str_to_time($parts[0]));
+        //$text .= " - ";
+        //$text .= date($format, self::str_to_time($parts[1]));
         
       }
     } else {
@@ -114,9 +135,7 @@ class Helper {
     
   }
   
-  
-  
-  
+   
 }
 
 ?>   

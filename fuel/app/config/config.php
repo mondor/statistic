@@ -186,8 +186,9 @@ return array(
 		 */
 		'packages'  => array(
 			'orm',
-      'auth',
-      'woopra'
+   'auth',
+   'woopra',
+   'fuel-phpactiverecord'   
 		),
 
 		/**
@@ -224,23 +225,7 @@ return array(
 		 * If you don't want the lang in a group use null as groupname.
 		 */
 		'language'  => array(),
-     
-  /*
-   * Memcache configs
-   */   
-  'memcache' => array("host"=>"127.0.0.1", "port"=>"11211"),   
-     
-  /*
-   * Woopra configs
-   */   
-  'woopra' => array(
-      "url" => "http://api.woopra.com/rest/analytics",
-      "domain" => "brr.com.au",
-      "api_key" => "9LMSCGMKTL",
-      "format" => "xml",
-      "date_format" => "dd/MM/yyyy",
-  ),   
-     
+               
 	),
 
 );

@@ -14,6 +14,7 @@
   echo Asset::js(array(
       'jquery.min.js',
       'highcharts/js/highcharts.js',
+      'highcharts/js/modules/exporting.js',
       'jquery-ui/js/jquery-ui-1.8.16.custom.min.js',
       'jquery.vector-map/jquery.vector-map.js',
       'jquery.vector-map/world-en.js',
@@ -35,6 +36,8 @@
      <span class="event">Event ID: <?php echo $eventid; ?></span>
     </div>
     
+
+
     <div class="search_form">
      <?php echo $search; ?>
     </div> 
@@ -71,5 +74,14 @@
 
    </div>
   </div>
+  <a href="javascript:void(0)" class="export">here</a>
+  <script>
+$(document).ready(function(){
+ $(".export").click(function(){
+  window.exportChart();
+ });
+ 
+}); 
+</script>
  </body>
 </html>
